@@ -4,8 +4,40 @@ fun main(){
 
 /**---------------------------------------------------
  * 
- * Class define dawn hian a constructor a awm a ngai
+ * Class define dawn hian curly brace hman tur ani
  * 
  * ---------------------------------------------------
 **/
-class 
+class SmartDevice{
+//	  
+}
+
+fun main() {
+    println("Hello, world!")
+    val smartTv = SmartDevice() 
+}
+
+/**-----------------------------------------------------
+ * 
+ *   Class member functions and how to define and use them
+ * 
+ * -----------------------------------------------------
+ **/
+
+ class SmartDevice{
+	  fun turnOn(){
+          println("Turning on device in 2 seconds")
+      }
+      
+      fun turnOff(){
+          println("Turning off device in 2 seconds")
+      }
+}
+
+
+fun main() {
+    println("Hello, world!")
+    val smartTv = SmartDevice() 
+    smartTv.turnOn()
+    smartTv.turnOff()
+}
